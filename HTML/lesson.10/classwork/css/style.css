@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Global CSS */
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+input, button{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+
+
+
+.navbar{
+    height: 106px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar__collection{
+    display: flex;
+    gap: 41px;
+    flex: 1;
+    color: #150C01;
+    text-decoration: none;
+}
+.navbar__link.active,
+.navbar__link:hover{
+    color: #DC780B;
+}
+.navbar__btn{
+    padding: 13px 30px;
+    border-radius: 5px;
+    border: none;
+    background: #DC780B;
+    color: white;
+    font-size: 16px;
+}
+.navbar__btn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+}
+.hero__content,
+.hero__image{
+    width: 50%;
+}
+.hero__title{
+    font-size: 49px;
+    color: #150C01;
+    margin-bottom: 20px;
+}
+.hero__desc{
+    line-height: 1,5;
+    font-size: 18px;
+    color: #150C01;
+    margin-bottom: 81px;
+}
+.hero__actions{
+    display: flex;
+    gap: 20px;
+}
+.hero__btn{
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #DC780B;
+    background: #DC780B;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.hero__btn:hover{
+    background: white;
+    color: #DC780B;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.features-title {
+    color: orange;
+    font-weight: bold;
+}
+.features-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.feature {
+    width: 30%;
+}
+.feature img {
+    margin-bottom: 10px;
+}
+.feature h3 {
+    font-size: 18px;
+}
+.feature p {
+    font-size: 14px;
+    color: gray;
+}
+.about {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.about2 {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 97px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-title {
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.about-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.about-description {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.about-btn {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu {
+    padding: 20px;
+}
+.menu__h1 {
+    color: #DC780B;
+    font-weight: bold;
+    text-align: center;
+}
+.menu h2, .menu p {
+    color: #333;
+    text-align: center;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.menu-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-item h3 {
+    color: #333;
+}
+.menu-item p {
+    color: #777;
+}
+.menu-item button {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.learn-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu-item button:hover, .learn-more:hover {
+    background: white;
+    color: #ff6600;
+}

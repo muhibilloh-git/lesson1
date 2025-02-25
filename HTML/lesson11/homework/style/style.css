@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 46px;
+  width: 100%;
+  margin-left: -20px;
+}
+.logo {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.2px;
+  letter-spacing: 0%;
+  color: #272d38;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav__links a {
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.5px;
+  letter-spacing: 0%;
+  color: #272D38;
+  transition: color 0.3s ease;
+}
+.nav__links a:hover {
+  color: #8EADD5;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-height: 100vh;
+    margin-left: 188px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.hero__text {
+  max-width: 50%;
+}
+.hero__text h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: #272D38;    
+}
+.hero__p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.5px;
+    letter-spacing: 0%;
+    color: #272D38;    
+    margin-top: 24px;
+}
+.btn {
+  background-color: #8eadd5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 39px;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.trusted__companies {
+    text-align: center;
+    margin-top: 150px; 
+    background: #f8f9fa; 
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trusted__companies p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.company__logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.company__logos img {
+    width: 120px; 
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.company__logos img:hover {
+    opacity: 1;
+}
+.branding__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 136px;
+    padding-bottom: 157px;
+}
+
+.branding__container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.branding__image {
+    max-width: 400px;
+    height: auto;
+}
+
+.branding__content {
+    max-width: 500px;
+}
+
+.branding__content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.branding__content p {
+    font-size: 16px;
+    color: #666;
+    margin: 15px 0;
+}
+
+.branding__button {
+    display: inline-block;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.branding__button:hover {
+    transform: translateX(5px);
+}
